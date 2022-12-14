@@ -1,33 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-  <title>Document</title>
-  <script src='js/index.js'></script>
-  <link rel='stylesheet' href='index.css'/>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Flatdango</title>
 </head>
+
 <body>
-  <div id='main'>
+    <nav>
+            <h2 class="website">FLATDANGO</h2>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Comedy</a></li>
+                <li><a href="#">Thriller</a></li>
+                <li><a href="#">Drama</a></li>
+                <li><a href="#">Animation</a></li>
+              </ul>
+    </nav>
 
-    <h2>GitHub Search</h2>
+    <div class="begin">
+        <div class="row" id="film-details">
+            <div>
+                <div id="listCont">
+                    <div class="try">
+                        <h2  id="showingTitle">MOVIES</h2>
+                        <ul  id="showingMovie"><a href="#"></a>
+                        </ul>
+                    </div>
+                </div>
 
-    <form id='github-form'>
-      <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'/>
-    </form>
 
-    <div id='github-container'>
-      <ul id='user-list'>
+    <div class="segment">
+         <h4  id="filmTitle">film title</h4>
+            <img class="pic"
+                        src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="Film details" id="poster">
+                    <p  id="movieDescription">Lorem ipsum </p>
 
-      </ul>
+                    <ul>
+                        <li  id="runtime"> <span>Runtime:</span> 108 minutes</li>
+                        <li  id="showtime">Showtime: 04:16PM</li>
+                        <li  id="ticketsAvailable">Available Tickets 67</li>
+                    </ul>
 
-      <ul id='repos-list'>
+                    <button type="button" class="btns" id="buyTicket">Buy Ticket</button>
 
-      </ul>
+                </div>
+                
+            </div>
+
+        </div>
     </div>
+    <footer>
+		<p>Flatdango</p>
+		<p>The best site for all your favourite movies</p>
+		
+		<p class="end">CopyRight By Flatdango</p>
+	</footer>
 
-  </div>
+ 
+    <script type="text/javascript" src="js/index.js"></script>
 
 </body>
+
 </html>
